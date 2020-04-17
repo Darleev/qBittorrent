@@ -1217,7 +1217,7 @@ void Session::processBannedIPs(lt::ip_filter &filter)
     }
 }
 
-void Session::adjustLimits(lt::settings_pack &settingsPack)
+void Session::adjustLimits(lt::settings_pack &settingsPack) const
 {
     // Internally increase the queue limits to ensure that the magnet is started
     const int maxDownloads = maxActiveDownloads();
@@ -2276,7 +2276,7 @@ bool Session::addTorrent_impl(CreateTorrentParams params, const MagnetUri &magne
         const auto it = m_loadedMetadata.constFind(hash);
         if (it != m_loadedMetadata.constEnd()) {
             // Adding preloaded torrent...
-            const TorrentInfo metadata = it.value();
+            const TorrentInfo &metadata = it.value();
             if (metadata.isValid()) {
                 // Metadata is received and torrent_handle is being deleted
                 // so we can't reuse it. Just add torrent using its metadata.
@@ -2981,10 +2981,10 @@ QString Session::networkInterface() const
     return m_networkInterface;
 }
 
-void Session::setNetworkInterface(const QString &iface)
+void Session::setNetworkInterface(const QString &interface)
 {
-    if (iface != networkInterface()) {
-        m_networkInterface = iface;
+    if (interface != networkInterface()) {
+        m_networkInterface = interface;
         configureListeningInterface();
     }
 }
@@ -3887,7 +3887,7 @@ void Session::handleTorrentTrackersRemoved(TorrentHandleImpl *const torrent, con
     for (const TrackerEntry &deletedTracker : deletedTrackers)
         LogMsg(tr("Tracker '%1' was deleted from torrent '%2'").arg(deletedTracker.url(), torrent->name()));
     emit trackersRemoved(torrent, deletedTrackers);
-    if (torrent->trackers().size() == 0)
+    if (torrent->trackers().empty())
         emit trackerlessStateChanged(torrent, true);
     emit trackersChanged(torrent);
 }
@@ -4266,7 +4266,7 @@ void Session::startUpTorrents()
                 QByteArray data;
                 CreateTorrentParams torrentParams;
                 MagnetUri magnetUri;
-                int queuePosition;
+                int queuePosition = 0;
                 if (readFile(fastresumePath, data) && loadTorrentResumeData(data, torrentParams, queuePosition, magnetUri)) {
                     if (queuePosition <= nextQueuePosition) {
                         startupTorrent({ hash, magnetUri, torrentParams, data });
@@ -4326,7 +4326,7 @@ void Session::startUpTorrents()
         QByteArray data;
         CreateTorrentParams torrentParams;
         MagnetUri magnetUri;
-        int queuePosition;
+        int queuePosition = 0;
         if (readFile(fastresumePath, data)
             && loadTorrentResumeData(data, torrentParams, queuePosition, magnetUri)) {
             startupTorrent({hash, magnetUri, torrentParams, data});
@@ -4511,7 +4511,7 @@ void Session::createTorrentHandle(const lt::torrent_handle &nativeHandle)
 
     const CreateTorrentParams params = m_addingTorrents.take(nativeHandle.info_hash());
 
-    TorrentHandleImpl *const torrent = new TorrentHandleImpl(this, nativeHandle, params);
+    auto *const torrent = new TorrentHandleImpl(this, nativeHandle, params);
     m_torrents.insert(torrent->hash(), torrent);
 
     const bool fromMagnetUri = !torrent->hasMetadata();
@@ -4909,6 +4909,7 @@ void Session::handleSessionStatsAlert(const lt::session_stats_alert *p)
 
     m_status.hasIncomingConnections = static_cast<bool>(stats[m_metricIndices.net.hasIncomingConnections]);
 
+    // TODO: all of these should be std::int64_t once libtorrent <= 1.1.x is no longer supported
     const auto ipOverheadDownload = stats[m_metricIndices.net.recvIPOverheadBytes];
     const auto ipOverheadUpload = stats[m_metricIndices.net.sentIPOverheadBytes];
     const auto totalDownload = stats[m_metricIndices.net.recvBytes] + ipOverheadDownload;
@@ -4954,6 +4955,7 @@ void Session::handleSessionStatsAlert(const lt::session_stats_alert *p)
     m_status.diskWriteQueue = stats[m_metricIndices.peer.numPeersDownDisk];
     m_status.peersCount = stats[m_metricIndices.peer.numPeersConnected];
 
+    // TODO: all of these should be std::int64_t once libtorrent <= 1.1.x is no longer supported
     const int numBlocksRead = stats[m_metricIndices.disk.numBlocksRead];
     const int numBlocksCacheHits = stats[m_metricIndices.disk.numBlocksCacheHits];
     m_cacheStatus.totalUsedBuffers = stats[m_metricIndices.disk.diskBlocksInUse];
