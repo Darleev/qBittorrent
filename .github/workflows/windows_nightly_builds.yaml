@@ -2,10 +2,10 @@ name: Nightly builds (Windows)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dump_tracker_announce_error ]
   pull_request:
     types: [edited, opened, reopened, synchronize]
-    branches: [ master ]
+    branches: [ dump_tracker_announce_error ]
 
 env:
   # Qt5: 5.14.2, 5.12.8 LTS
