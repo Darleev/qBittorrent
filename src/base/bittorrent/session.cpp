@@ -4718,7 +4718,7 @@ void Session::handleStateUpdateAlert(const lt::state_update_alert *p)
 void Session::handleSocks5Alert(const lt::socks5_alert *p) const
 {
     if (p->error) {
-        LogMsg(tr("SOCKS5 proxy error. Message: %1").arg(QString::fromStdString(p->message()))
+        LogMsg(tr("SOCKS5 proxy error. Message: %1 | error.message(): %2").arg(QString::fromStdString(p->message()), QString::fromStdString (p->error.message()))
             , Log::WARNING);
     }
 }
