@@ -2931,7 +2931,7 @@ Chcete teď nainstalovat novější verzi?</translation>
         <location filename="../gui/mainwindow.cpp" line="1791"/>
         <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
 Minimum requirement: 3.3.0.</source>
-        <translation>Vaše verze Pythonu (%1) je zastaralá. Pro zprovoznění vyhledávačů aktualizujte na nejnovější verzi. 
+        <translation>Vaše verze Pythonu (%1) je zastaralá. Pro zprovoznění vyhledávačů aktualizujte na nejnovější verzi.
 Minimální požadavky: 3.3.0.</translation>
     </message>
     <message>

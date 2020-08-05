@@ -7106,7 +7106,7 @@ Those plugins were disabled.</source>
         <source>qBittorrent is a file sharing program. When you run a torrent, its data will be made available to others by means of upload. Any content you share is your sole responsibility.
 
 No further notices will be issued.</source>
-        <translation>qBittorrent este un program de partajat fișiere. Când rulați un torrent, datele sale vor fi disponibile și altora prin partajare. Orice conținut partajați este responsabilitatea dumneavoastră 
+        <translation>qBittorrent este un program de partajat fișiere. Când rulați un torrent, datele sale vor fi disponibile și altora prin partajare. Orice conținut partajați este responsabilitatea dumneavoastră
 
 Nu vor fi emise alte notificări.</translation>
     </message>

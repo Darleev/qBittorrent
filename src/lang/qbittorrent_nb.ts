@@ -2931,7 +2931,7 @@ Vil du installere en nyere versjon nå?</translation>
         <location filename="../gui/mainwindow.cpp" line="1791"/>
         <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
 Minimum requirement: 3.3.0.</source>
-        <translation>Din Python-versjon (%1) er utdatert. Oppgrader til siste versjon for at søkemotorene skal virke. 
+        <translation>Din Python-versjon (%1) er utdatert. Oppgrader til siste versjon for at søkemotorene skal virke.
 Minimumskrav: 3.3.0.</translation>
     </message>
     <message>

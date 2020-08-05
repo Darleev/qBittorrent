@@ -109,8 +109,7 @@
     <message>
         <location filename="../gui/aboutdialog.cpp" line="102"/>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
-        <translation>Il database gratuito da IP a Country Lite di DB-IP viene usato per risolvere i paesi dei peer. 
-Il database è concesso in licenza con la licenza internazionale Creative Commons Attribution 4.0.</translation>
+        <translation>Il database gratuito da IP a Country Lite di DB-IP viene usato per risolvere i paesi dei peer. Il database è concesso in licenza con la licenza internazionale Creative Commons Attribution 4.0.</translation>
     </message>
 </context>
 <context>
@@ -780,14 +779,12 @@ Errore: %2</translation>
     <message>
         <location filename="../app/application.cpp" line="185"/>
         <source>Running in portable mode. Auto detected profile folder at: %1</source>
-        <translation>In esecuzione in modo portatile. 
-Rilevamento automatico cartella profilo in: %1</translation>
+        <translation>In esecuzione in modo portatile. Rilevamento automatico cartella profilo in: %1</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="187"/>
         <source>Redundant command line flag detected: &quot;%1&quot;. Portable mode implies relative fastresume.</source>
-        <translation>Rilevato flag della riga di comando ridondante: &quot;%1&quot;. 
-La modalità portatile implica una relativa ripresa rapida.</translation>
+        <translation>Rilevato flag della riga di comando ridondante: &quot;%1&quot;. La modalità portatile implica una relativa ripresa rapida.</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="190"/>
@@ -1391,26 +1388,22 @@ Supporta i formati:S01E01, 1x1, 2017.01.01 e 01.01.2017 (I formati a data suppor
     <message>
         <location filename="../base/bittorrent/session.cpp" line="1717"/>
         <source>&apos;%1&apos; reached the maximum ratio you set. Removed torrent and its files.</source>
-        <translation>&apos;%1&apos; ha raggiunto il rapporto massimo impostato. 
-Rimosso torrent e relativi file.</translation>
+        <translation>&apos;%1&apos; ha raggiunto il rapporto massimo impostato. Rimosso torrent e relativi file.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="1726"/>
         <source>&apos;%1&apos; reached the maximum ratio you set. Enabled super seeding for it.</source>
-        <translation>&apos;%1&apos; ha raggiunto il rapporto massimo impostato. 
-Abilitato il super seeding per questo.</translation>
+        <translation>&apos;%1&apos; ha raggiunto il rapporto massimo impostato. Abilitato il super seeding per questo.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="1748"/>
         <source>&apos;%1&apos; reached the maximum seeding time you set. Removed torrent and its files.</source>
-        <translation>&apos;%1&apos; ha raggiunto il tempo di seeding massimo impostato. 
-Rimosso torrent e relativi file.</translation>
+        <translation>&apos;%1&apos; ha raggiunto il tempo di seeding massimo impostato. Rimosso torrent e relativi file.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="1757"/>
         <source>&apos;%1&apos; reached the maximum seeding time you set. Enabled super seeding for it.</source>
-        <translation>&apos;%1&apos; ha raggiunto il tempo di seeding massimo impostato. 
-Abilitato il super seeding per questo.</translation>
+        <translation>&apos;%1&apos; ha raggiunto il tempo di seeding massimo impostato. Abilitato il super seeding per questo.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="2569"/>
@@ -1465,8 +1458,7 @@ Abilitato il super seeding per questo.</translation>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4556"/>
         <source>Torrent errored. Torrent: &quot;%1&quot;. Error: %2.</source>
-        <translation>Torrent errato. 
-Torrent: &quot;%1&quot; - errore: %2.</translation>
+        <translation>Torrent errato. Torrent: &quot;%1&quot; - errore: %2.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4594"/>
@@ -1490,8 +1482,7 @@ Torrent: &quot;%1&quot; - errore: %2.</translation>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4661"/>
         <source>File error alert. Torrent: &quot;%1&quot;. File: &quot;%2&quot;. Reason: %3</source>
-        <translation>Avviso errore file. 
-Torrent: &quot;%1&quot;. File: &quot;%2&quot;. Motivo:%3</translation>
+        <translation>Avviso errore file. Torrent: &quot;%1&quot;. File: &quot;%2&quot;. Motivo:%3</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4719"/>
@@ -1508,14 +1499,12 @@ Torrent: &quot;%1&quot;. File: &quot;%2&quot;. Motivo:%3</translation>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4750"/>
         <source>URL seed name lookup failed. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Error: &quot;%3&quot;</source>
-        <translation>Ricerca URL nome seed non riuscita. 
-Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Errore: &quot;%3&quot;</translation>
+        <translation>Ricerca URL nome seed non riuscita. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Errore: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4755"/>
         <source>Received error message from a URL seed. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Message: &quot;%3&quot;</source>
-        <translation>Messaggio di errore ricevuto da un seed URL. 
-Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Messaggio: &quot;%3&quot;</translation>
+        <translation>Messaggio di errore ricevuto da un seed URL. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Messaggio: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4811"/>
@@ -1538,14 +1527,12 @@ Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Messaggio: &quot;%3&quot;</transla
     <message>
         <location filename="../base/bittorrent/session.cpp" line="4967"/>
         <source>Error: Internal alert queue full and alerts were dropped, you might see degraded performance. Dropped alert types: %1. Message: %2</source>
-        <translation>Errore: la coda degli avvisi interni è piena e gli avvisi sono stati eliminati, è possibile che le prestazioni vengano ridotte. 
-Tipi di avviso eliminati: %1. Messaggio: %2</translation>
+        <translation>Errore: la coda degli avvisi interni è piena e gli avvisi sono stati eliminati, è possibile che le prestazioni vengano ridotte. Tipi di avviso eliminati: %1. Messaggio: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="5018"/>
         <source>SOCKS5 proxy error. Message: %1</source>
-        <translation>Errore proxy SOCK5. 
-Messaggio: %1</translation>
+        <translation>Errore proxy SOCK5. Messaggio: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="2037"/>
@@ -2339,14 +2326,12 @@ Torrent: &quot;%1&quot;, file &quot;%2&quot;, motivo: &quot;%3&quot;</translatio
     <message>
         <location filename="../base/http/connection.cpp" line="69"/>
         <source>Http request size exceeds limiation, closing socket. Limit: %1, IP: %2</source>
-        <translation>La dimensione della richiesta HTTP supera il limite, chiusura socket. 
-Limite: %1, IP: %2</translation>
+        <translation>La dimensione della richiesta HTTP supera il limite, chiusura socket. Limite: %1, IP: %2</translation>
     </message>
     <message>
         <location filename="../base/http/connection.cpp" line="82"/>
         <source>Bad Http request, closing socket. IP: %1</source>
-        <translation>Richiesta HTTP errata, chiusura socket. 
-IP: %1</translation>
+        <translation>Richiesta HTTP errata, chiusura socket. IP: %1</translation>
     </message>
 </context>
 <context>
@@ -2955,8 +2940,7 @@ Vuoi installare ora una versione più recente?</translation>
         <location filename="../gui/mainwindow.cpp" line="1791"/>
         <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
 Minimum requirement: 3.3.0.</source>
-        <translation>La versione Python installata (v. %1) è obsoleta. 
-Aggiorna alla versione più recente disponibile per permettere il funzionamento dei motori di ricerca.
+        <translation>La versione Python installata (v. %1) è obsoleta. Aggiorna alla versione più recente disponibile per permettere il funzionamento dei motori di ricerca.
 Requisito minimo: v. 3.3.0.</translation>
     </message>
     <message>
@@ -3213,15 +3197,13 @@ Per favore installalo manualmente.</translation>
         <location filename="../base/net/geoipmanager.cpp" line="96"/>
         <location filename="../base/net/geoipmanager.cpp" line="438"/>
         <source>IP geolocation database loaded. Type: %1. Build time: %2.</source>
-        <translation>Database geolocalizzazione IP caricato. 
-Tipo: %1 - Data build: %2.</translation>
+        <translation>Database geolocalizzazione IP caricato. Tipo: %1 - Data build: %2.</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="100"/>
         <location filename="../base/net/geoipmanager.cpp" line="456"/>
         <source>Couldn&apos;t load IP geolocation database. Reason: %1</source>
-        <translation>Impossibile caricare database geolocalizzazione IP. 
-Motivo: %1</translation>
+        <translation>Impossibile caricare database geolocalizzazione IP. Motivo: %1</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="148"/>
@@ -4246,8 +4228,7 @@ Motivo: %1</translation>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="421"/>
         <source>Couldn&apos;t download IP geolocation database file. Reason: %1</source>
-        <translation>Impossibile scaricare il file del database geolocalizzazione IP. 
-Motivo: %1</translation>
+        <translation>Impossibile scaricare il file del database geolocalizzazione IP. Motivo: %1</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="428"/>
@@ -5200,8 +5181,7 @@ jolly &apos;*&apos;.</translation>
     <message>
         <location filename="../gui/optionsdialog.ui" line="849"/>
         <source>Allocate full file sizes on disk before starting downloads, to minimize fragmentation. Only useful for HDDs.</source>
-        <translation>Alloca lo spazio pieno per il file su disco prima di avviare i download, per ridurre al minimo la frammentazione. 
-Utile solo per gli HDD.</translation>
+        <translation>Alloca lo spazio pieno per il file su disco prima di avviare i download, per ridurre al minimo la frammentazione. Utile solo per gli HDD.</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="859"/>
@@ -6152,8 +6132,7 @@ Manuale: varie proprietà del torrent (ad es. percorso salvataggio) vanno assegn
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="269"/>
         <source>Some peers cannot be added. Check the Log for details.</source>
-        <translation>Alcuni peer non possono essere aggiunti. 
-Per i dettagli controlla il registro eventi.</translation>
+        <translation>Alcuni peer non possono essere aggiunti. Per i dettagli controlla il registro eventi.</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="271"/>
@@ -7255,8 +7234,7 @@ Non verranno emessi ulteriori avvisi.</translation>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="199"/>
         <source>RSS feed at &apos;%1&apos; is successfully downloaded. Starting to parse it.</source>
-        <translation>Download completato feed RSS in &apos;%1&apos;. 
-Avvio analisi.</translation>
+        <translation>Download completato feed RSS in &apos;%1&apos;. Avvio analisi.</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="262"/>
@@ -8723,8 +8701,7 @@ Scegli un nome diverso.</translation>
         <location filename="../gui/torrentcontenttreeview.cpp" line="141"/>
         <location filename="../gui/torrentcontenttreeview.cpp" line="256"/>
         <source>This name is already in use in this folder. Please use a different name.</source>
-        <translation>In questa cartella questo nome è già in uso . 
-Usa un nome diverso.</translation>
+        <translation>In questa cartella questo nome è già in uso . Usa un nome diverso.</translation>
     </message>
     <message>
         <location filename="../gui/torrentcontenttreeview.cpp" line="180"/>
@@ -8736,8 +8713,7 @@ Usa un nome diverso.</translation>
         <location filename="../gui/torrentcontenttreeview.cpp" line="181"/>
         <location filename="../gui/torrentcontenttreeview.cpp" line="296"/>
         <source>This name is already in use. Please use a different name.</source>
-        <translation>Questo nome è già in uso. 
-Scegli un nome differente.</translation>
+        <translation>Questo nome è già in uso. Scegli un nome differente.</translation>
     </message>
 </context>
 <context>
@@ -9958,9 +9934,7 @@ Ragione: %1</translation>
     <message>
         <location filename="../gui/uithememanager.cpp" line="83"/>
         <source>Couldn&apos;t apply theme stylesheet. stylesheet.qss couldn&apos;t be opened. Reason: %1</source>
-        <translation>Impossibile applicare il foglio di stile del tema. 
-stylesheet.qss non può essere aperto. 
-Motivo: %1</translation>
+        <translation>Impossibile applicare il foglio di stile del tema. stylesheet.qss non può essere aperto. Motivo: %1</translation>
     </message>
 </context>
 <context>
@@ -10018,8 +9992,7 @@ Motivo: %1</translation>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="81"/>
         <source>Python detected, executable name: &apos;%1&apos;, version: %2</source>
-        <translation>Rilevato Python. 
-Nome eseguibile: &apos;%1&apos; - versione: &apos;%2&apos;</translation>
+        <translation>Rilevato Python. Nome eseguibile: &apos;%1&apos; - versione: &apos;%2&apos;</translation>
     </message>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="273"/>

@@ -342,8 +342,7 @@
     </message>
     <message>
         <source>Unable to add peers. Please ensure you are adhering to the IP:port format.</source>
-        <translation>Impossibile aggiungere peer. 
-Assicurati che corrispondano allo standard IP:porta.</translation>
+        <translation>Impossibile aggiungere peer. Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>JavaScript Required! You must enable JavaScript for the Web UI to work properly</source>
@@ -2812,8 +2811,7 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
-        <translation>Il database gratuito da IP a Country Lite di DB-IP viene usato per risolvere i paesi dei peer. 
-Il database è concesso in licenza con la licenza internazionale Creative Commons Attribution 4.0.</translation>
+        <translation>Il database gratuito da IP a Country Lite di DB-IP viene usato per risolvere i paesi dei peer. Il database è concesso in licenza con la licenza internazionale Creative Commons Attribution 4.0.</translation>
     </message>
 </context>
 <context>

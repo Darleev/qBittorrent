@@ -80,7 +80,7 @@ add_library(qbt_gui STATIC
     uithememanager.h
     updownratiodialog.h
     utils.h
-    
+
     # sources
     aboutdialog.cpp
     addnewtorrentdialog.cpp

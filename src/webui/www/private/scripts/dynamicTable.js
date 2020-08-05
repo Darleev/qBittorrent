@@ -2480,7 +2480,7 @@ window.qBittorrent.DynamicTable = (function() {
                 tr.removeClass('articleTableFeed');
                 tr.addClass('articleTableArticle');
             }
-            
+
             const tds = tr.getElements('td');
             for (let i = 0; i < this.columns.length; ++i) {
                 if (data.hasOwnProperty(this.columns[i].dataProperties[0]))
@@ -2489,7 +2489,7 @@ window.qBittorrent.DynamicTable = (function() {
             row['data'] = {};
         }
     });
-    
+
 
     return exports();
 })();

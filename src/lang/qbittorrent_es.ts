@@ -4781,10 +4781,8 @@ Disable encryption: Only connect to peers without protocol encryption</source>
 Specify an IPv4 or IPv6 address. You can specify &quot;0.0.0.0&quot; for any IPv4 address,
 &quot;::&quot; for any IPv6 address, or &quot;*&quot; for both IPv4 and IPv6.</source>
         <translation>Dirección IP que la interfaz Web escuchará.
-Especifique una dirección IPv4 o IPv6. 
-&quot;0.0.0.0&quot; para cualquier dirección IPv4.
-&quot;::&quot; para cualquier dirección IPv6.
-&quot;*&quot; para cualquier dirección IPv4 O IPv6</translation>
+Especifique una dirección IPv4 o IPv6. &quot;0.0.0.0&quot; para cualquier dirección IPv4.
+&quot;::&quot; para cualquier dirección IPv6. &quot;*&quot; para cualquier dirección IPv4 O IPv6</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3042"/>

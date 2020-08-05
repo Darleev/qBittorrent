@@ -4779,7 +4779,7 @@ Disable encryption: Only connect to peers without protocol encryption</source>
 Specify an IPv4 or IPv6 address. You can specify &quot;0.0.0.0&quot; for any IPv4 address,
 &quot;::&quot; for any IPv6 address, or &quot;*&quot; for both IPv4 and IPv6.</source>
         <translation>웹 UI가 결합할 IP 주소.
-IPv4나 IPV6 주소를 지정하세요. IPv4 주소에 &quot;0.0.0.0&quot;을, IPV6 주소에 &quot;::&quot;을, 
+IPv4나 IPV6 주소를 지정하세요. IPv4 주소에 &quot;0.0.0.0&quot;을, IPV6 주소에 &quot;::&quot;을,
 또는 IPV4/IPv6 모두 &quot;*&quot;을 지정할 수 있습니다.</translation>
     </message>
     <message>

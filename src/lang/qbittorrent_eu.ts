@@ -2973,7 +2973,7 @@ Zergaitia: %2</translation>
         <location filename="../gui/mainwindow.cpp" line="1766"/>
         <source>Python is required to use the search engine but it does not seem to be installed.
 Do you want to install it now?</source>
-        <translation>Python beharrezkoa da bilaketa gailua erabiltzeko baina ez dirudi ezarrita dagoenik. 
+        <translation>Python beharrezkoa da bilaketa gailua erabiltzeko baina ez dirudi ezarrita dagoenik.
 Orain ezartzea nahi duzu?</translation>
     </message>
     <message>
