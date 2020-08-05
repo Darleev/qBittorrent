@@ -2956,8 +2956,7 @@ Minimum requirement: 3.3.0.</source>
         <comment>e.g: An error occurred for torrent &apos;xxx.avi&apos;.
  Reason: disk is full.</comment>
         <translation>Προέκυψε σφάλμα I/O για το torrent &apos;%1&apos;.
-Αιτία: %2
-</translation>
+Αιτία: %2</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="939"/>

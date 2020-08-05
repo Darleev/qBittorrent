@@ -2152,8 +2152,7 @@ Podporuje formáty: S01E01, 1x1, 2017.01.01 and 01.01.2017 (Dátumový formát t
     <message>
         <location filename="../gui/rss/feedlistwidget.cpp" line="50"/>
         <source>RSS feeds</source>
-        <translation>RSS kanály
-</translation>
+        <translation>RSS kanály</translation>
     </message>
     <message>
         <location filename="../gui/rss/feedlistwidget.cpp" line="62"/>

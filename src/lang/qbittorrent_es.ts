@@ -8603,8 +8603,7 @@ Category name cannot start/end with &apos;/&apos;.
 Category name cannot contain &apos;//&apos; sequence.</source>
         <translation>El nombre de la categoría no debe contener &apos;\&apos;
 El nombre de la categoría no debe contener &apos;//&apos;
-El nombre de la categoría no debe comenzar o terminar con &apos;/&apos;.
-</translation>
+El nombre de la categoría no debe comenzar o terminar con &apos;/&apos;.</translation>
     </message>
     <message>
         <location filename="../gui/torrentcategorydialog.cpp" line="73"/>
@@ -8959,8 +8958,7 @@ Por favor, elija otro nombre.</translation>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="595"/>
         <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
-        <translation>Error: &apos;%1&apos; no es un archivo torrent valido.
-</translation>
+        <translation>Error: &apos;%1&apos; no es un archivo torrent valido.</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="755"/>

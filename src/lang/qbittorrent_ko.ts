@@ -1403,8 +1403,7 @@ Supports the formats: S01E01, 1x1, 2017.01.01 and 01.01.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/session.cpp" line="1757"/>
         <source>&apos;%1&apos; reached the maximum seeding time you set. Enabled super seeding for it.</source>
-        <translation>&apos;%1&apos;이 설정한 최대 배포 시간에 도달했습니다. 이 토런트는 초도 배포를 사용하고 있습니다.
-</translation>
+        <translation>&apos;%1&apos;이 설정한 최대 배포 시간에 도달했습니다. 이 토런트는 초도 배포를 사용하고 있습니다.</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/session.cpp" line="2569"/>
@@ -2100,8 +2099,7 @@ Supports the formats: S01E01, 1x1, 2017.01.01 and 01.01.2017 (Date formats also 
     <message>
         <location filename="../base/net/private/downloadhandlerimpl.cpp" line="244"/>
         <source>A breakdown in protocol was detected</source>
-        <translation>프로토콜 오동작이 감지되었습니다.
-</translation>
+        <translation>프로토콜 오동작이 감지되었습니다.</translation>
     </message>
     <message>
         <location filename="../base/net/private/downloadhandlerimpl.cpp" line="246"/>

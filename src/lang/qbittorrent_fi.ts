@@ -7250,8 +7250,7 @@ Muita varoituksia ei anneta.</translation>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="160"/>
         <source>RSS feed with given URL already exists: %1.</source>
-        <translation>Annetulla URL-osoitteella on jo olemassa RSS-syöte: %1.
-</translation>
+        <translation>Annetulla URL-osoitteella on jo olemassa RSS-syöte: %1.</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="179"/>

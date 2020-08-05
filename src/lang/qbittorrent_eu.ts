@@ -8958,9 +8958,7 @@ Mesedez hautatu beste izen bat eta saiatu berriro.</translation>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="595"/>
         <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
-        <translation>Akatsa: &apos;%1&apos; ez da baliozko torrent agiria.
-
-</translation>
+        <translation>Akatsa: &apos;%1&apos; ez da baliozko torrent agiria.</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="755"/>
