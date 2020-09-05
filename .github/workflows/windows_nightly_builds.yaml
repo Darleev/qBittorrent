@@ -2,10 +2,10 @@ name: Nightly builds (Windows)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ temp_for_builds ]
   pull_request:
     types: [edited, opened, reopened, synchronize]
-    branches: [ master ]
+    branches: [ temp_for_builds ]
 
 env:
   # Qt5: 5.15.0 LTS
