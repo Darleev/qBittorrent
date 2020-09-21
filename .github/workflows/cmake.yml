@@ -6,10 +6,10 @@ name: GitHub Actions CI
 
 on:
   push:
-    branches: [ ci_test_04d3452 ]
+    branches: [ master ]
   pull_request:
     types: [edited, opened, reopened, synchronize]
-    branches: [ ci_test_04d3452 ]
+    branches: [ master ]
 
 env:
   # Qt: 5.15.0
