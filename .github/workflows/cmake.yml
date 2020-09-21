@@ -135,6 +135,9 @@ jobs:
         arch: x64
         spectre: true
 
+    - name: Setup MSBuild.exe
+      uses: warrenbuckley/Setup-MSBuild@v1
+      
     - name: build qBittorrent
       shell: cmd
       run: |
@@ -143,6 +146,8 @@ jobs:
           -DCMAKE_TOOLCHAIN_FILE=${{ env.VCPKG_DEST_WIN }}\scripts\buildsystems\vcpkg.cmake ^
           -DVCPKG_TARGET_TRIPLET=x64-windows-static-release ^
           -DVERBOSE_CONFIGURE=ON ^
+          -DCMAKE_CXX_COMPILER=cl ^
+          -DCMAKE_C_COMPILER=cl ^
           --graphviz=build\target_graph.dot
         cmake --build build
     - name: upload artifact as zip
